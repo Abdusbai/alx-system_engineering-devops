@@ -1,0 +1,4 @@
+#!/bin/bash
+ls -ap | tr '\n' ',' | sed 's/,$/\n/'
+file -C -m school.mgc
+0 string SCHOOL
